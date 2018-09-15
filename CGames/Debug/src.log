@@ -1,0 +1,25 @@
+﻿Build started 07-09-2017 20:06:40.
+     1>Project "C:\Users\THARUN\MissionRnDProjects\C-Games\src\src.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CGames.cpp
+         CGames.cpp
+     1>c:\users\tharun\missionrndprojects\c-games\src\c15boardutils.h(21): warning C4091: 'typedef ' : ignored on left of 'Board' when no variable is declared
+     1>c:\users\tharun\missionrndprojects\c-games\src\c15userutils.h(11): warning C4091: 'typedef ' : ignored on left of 'User' when no variable is declared
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(92): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(92): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(330): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(330): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(589): warning C4101: 'moves' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(599): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(599): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(908): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(908): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\tharun\missionrndprojects\c-games\src\reversimovesutils.h(561): warning C4715: 'isValidMove' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\THARUN\MissionRnDProjects\C-Games\Debug\src.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\THARUN\MissionRnDProjects\C-Games\Debug\src.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\THARUN\MissionRnDProjects\C-Games\Debug\src.lib" /MACHINE:X86 Debug\CGames.obj
+         src.vcxproj -> C:\Users\THARUN\MissionRnDProjects\C-Games\Debug\src.exe
+     1>Done Building Project "C:\Users\THARUN\MissionRnDProjects\C-Games\src\src.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16

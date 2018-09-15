@@ -1,0 +1,36 @@
+﻿Build started 28-06-2017 22:50:49.
+     1>Project "C:\Users\THARUN\MissionRnDProjects\C-Arrays\src\src.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SRC_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainArrays1.cpp maxPosNegSum.cpp nPrime.cpp oneTwoCount.cpp studentsCount.cpp topKStudents.cpp scoresDescendingSort.cpp removeArrayDuplicates.cpp sortedArrayInsertNumber.cpp sortedArrayPositionsChange.cpp
+         sortedArrayPositionsChange.cpp
+     1>c:\users\tharun\missionrndprojects\c-arrays\src\sortedarraypositionschange.cpp(21): warning C4101: 'i' : unreferenced local variable
+         sortedArrayInsertNumber.cpp
+         removeArrayDuplicates.cpp
+         scoresDescendingSort.cpp
+         topKStudents.cpp
+         studentsCount.cpp
+         oneTwoCount.cpp
+         nPrime.cpp
+         maxPosNegSum.cpp
+         MainArrays1.cpp
+         Generating Code...
+     1>c:\users\tharun\missionrndprojects\c-arrays\src\studentscount.cpp(37): warning C4715: 'studentsCount' : not all control paths return a value
+     1>c:\users\tharun\missionrndprojects\c-arrays\src\scoresdescendingsort.cpp(43): warning C4715: 'scoresDescendingSort' : not all control paths return a value
+     1>c:\users\tharun\missionrndprojects\c-arrays\src\sortedarraypositionschange.cpp(36): warning C4715: 'sortedArrayPositionsChange' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\THARUN\MissionRnDProjects\C-Arrays\Debug\src.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\THARUN\MissionRnDProjects\C-Arrays\Debug\src.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\THARUN\MissionRnDProjects\C-Arrays\Debug\src.lib" /MACHINE:X86 Debug\MainArrays1.obj
+         Debug\maxPosNegSum.obj
+         Debug\nPrime.obj
+         Debug\oneTwoCount.obj
+         Debug\studentsCount.obj
+         Debug\topKStudents.obj
+         Debug\scoresDescendingSort.obj
+         Debug\removeArrayDuplicates.obj
+         Debug\sortedArrayInsertNumber.obj
+         Debug\sortedArrayPositionsChange.obj
+         src.vcxproj -> C:\Users\THARUN\MissionRnDProjects\C-Arrays\Debug\src.exe
+     1>Done Building Project "C:\Users\THARUN\MissionRnDProjects\C-Arrays\src\src.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.80
